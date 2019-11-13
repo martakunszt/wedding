@@ -3,150 +3,127 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-*{margin:0; padding:0;}
+*{margin:0;padding:0;}
 
 body{
-  background-color:#FFF9F5;
+    text-align:center;
+    background-color: #FFF9F5;
+}
+
+h1{
+  font-family:"Raleway";
+  position:absolute;
+  top:10%;
+  left:45.5%;
 }
 .main{
-  font-family:'Raleway';
-  margin-left:400px;
-  margin-right:400px;
-  margin-top:200px;
-  text-align:center;
-  display: flex;
-  flex-wrap: wrap
-}
-.box{
-  flex: 25%;
-  padding: 20px;
-}
-h1{
-  margin-top:70px;
-  text-align:center;
-}
-h3{
-  margin-top:10px;
-}
-
-#box1{
-  border-radius:5%; 
-  display:inline-block;
-  position:absolute;
-  top:30%;
-  left:10%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  background-image:url(../images/8.jpg);
-  background-size:cover;
-  background-repeat:no-repeat;
-  word-wrap: break-word;
-}
-
-#box2{
-  border-radius:5%; 
-  display:inline-block;
-  background-color:#ffff;
-  position:absolute;
-  top:30%;
-  left:70%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  word-wrap: break-word;
-  
-}
-
-#box3{ 
-  border-radius:5%;  
-  background-color:#ffff;
-  position:absolute;
-  top:30%;
-  left:40%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  word-wrap: break-word;
-  
-}
-
-#box4{
-  border-radius:5%; 
-  display:inline-block;
-  background-color:#ffff;
-  position:absolute;
-  top:70%;
-  left:70%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  background-image:url(../images/7.jpg);
-  background-size: cover;
-  background-repeat:no-repeat;
-  word-wrap: break-word;
-}
-
-#box5{
-  border-radius:5%; 
-  display:inline-block;
-  background-color:#ffff;
-  position:absolute; 
-  top:70%;
-  left:10%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  background-image:url(../images/7.jpg);
-  background-size: cover;
-  background-repeat:no-repeat;
-  word-wrap: break-word;
-}
-
-#box6{
-  border-radius:5%; 
-  display:inline-block;
-  background-color:#ffff;
-  position:absolute; 
-  top:70%;
-  left:40%;
-  transform:translateX(-50%,-50%);
-  width:400px;
-  min-height:200px;
-  background-image:url(../images/7.jpg);
-  background-size: cover;
-  background-repeat:no-repeat;
-  word-wrap: break-word;
-}
-h1{
     text-align:center;
-    padding-top:10px;
-    font-family:"Raleway";
 }
-
-p{
-    font-family:"Raleway";
-    text-align:justify;
-    font-size:2vh;
-    padding-top:15px;
-    margin-left:10%;
-    margin-right:10%;
-    overflow:hidden;
-    word-wrap:break-word;
-    padding: 10px 20px;
-
+/* ONE */
+.one{
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position:absolute;
+    top:20%;
+    left:4%;
+    background-color:white;
 }
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .box {
-    flex: 50%;
-  }
+.text1{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
 }
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .main {
-    flex-direction: row;
-  }
+.one img{
+    height:50%;
+    width:100%;
+}
+#button1{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* TWO */
+.two{
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    left:28%;
+    background-color:white;
+}
+.text2{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+.two img{
+    height:50%;
+    width:100%;
+}
+#button2{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* THREE */
+.three{
+    text-align:center;
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    right:28%;
+    background-color:white;
+    
+}
+.three img{
+    height:50%;
+    width:100%;
+}
+.text3{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+#button3{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* FOUR */
+.four{
+    text-align:center;
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    right:4%;
+    background-color:white;
+    
+}
+.four img{
+    height:50%;
+    width:100%;
+}
+.text4{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+#button4{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
 }

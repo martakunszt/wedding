@@ -1,0 +1,135 @@
+*{margin:0;padding:0;}
+
+body{
+    text-align:center;
+    background-color: #FFF9F5;
+}
+.sidebar{
+    z-index:-1;
+    left:0;
+    width:15%;
+    height:100%;
+    background-color:white;
+    position:absolute;
+}
+#basket{
+    list-style-type:none;
+    top:50px;
+    font-family:"Raleway";
+    position:absolute;
+    padding-left:30%;
+}
+
+.main{
+    right:0;
+    width:90%;
+    text-align:center;
+}
+/* ONE */
+.one{
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position:absolute;
+    top:20%;
+    left:16%;
+    background-color:white;
+}
+.text1{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+.one img{
+    height:50%;
+    width:100%;
+}
+#button1{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* TWO */
+.two{
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    left:37%;
+    background-color:#ffff;
+}
+.text2{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+.two img{
+    height:50%;
+    width:100%;
+}
+#button2{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* THREE */
+.three{
+    text-align:center;
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    right:22%;
+    background-color:#ffff;
+    
+}
+.three img{
+    height:50%;
+    width:100%;
+}
+.text3{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+#button3{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
+/* FOUR */
+.four{
+    text-align:center;
+    z-index: -1;
+    width:20%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    right:1%;
+    background-color:#ffff;
+    
+}
+.four img{
+    height:50%;
+    width:100%;
+}
+.text4{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+#button4{
+    border:none;
+    background-color:#ffff;
+    cursor:pointer;
+}
