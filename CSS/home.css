@@ -11,7 +11,7 @@
 
 
 body{
-    height:500vh;
+    height:500px;
     background-color:#FFF9F5;
 }
 
@@ -57,5 +57,114 @@ body{
     background-color:white;
     width:20%;
     left:0;
-    height:1000%;
+    height:220%;
+}
+
+.side p{
+    text-align: justify;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:1.8vh;
+    line-height:2;
+    font-family:"Raleway";
+    
+}
+h2{
+    margin-top:10%;
+}
+
+
+/* ONE */
+.one{
+    z-index: -1;
+    width:15%;
+    height:80%;
+    position:absolute;
+    top:20%;
+    left:24%;
+    background-color:white;
+}
+.text1{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+    text-align:center;
+}
+.one img{
+    height:50%;
+    width:100%;
+}
+
+/* TWO */
+.two{
+    z-index: -1;
+    width:15%;
+    height:80%;
+    position: absolute;
+    top:20%;
+    left:43%;
+    background-color:white;
+}
+
+.text2{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+    text-align:center;
+}
+.two img{
+    height:50%;
+    width:100%;
+}
+
+/* THREE */
+.three{
+    text-align:center;
+    z-index: -1;
+    width:15%;
+    height:80%;
+    position: absolute;
+    top:20%;
+    right:23%;
+    background-color:white;
+    
+}
+.three img{
+    height:50%;
+    width:100%;
+}
+.text3{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
+}
+
+/* FOUR */
+.four{
+    text-align:center;
+    z-index: -1;
+    width:15%;
+    height:80%;
+    position: absolute;
+    top:20%;
+    right:4%;
+    background-color:white;
+    
+}
+.four img{
+    height:50%;
+    width:100%;
+}
+.text4{
+    position:absolute;
+    top:50%;
+    width:100%;
+    font-family:'Raleway';
+    text-transform:uppercase;
 }
